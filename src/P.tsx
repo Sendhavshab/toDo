@@ -69,7 +69,8 @@ const handleWorkNotDone = (event: React.MouseEvent<HTMLInputElement, MouseEvent>
 
     })
 
-    const newToDo = toDo.filter((tag , index) => index !== id )
+   const newToDo = toDo.filter((_, index) => index !== id);
+
 
        newDone = newDone.map((num)=>{
         if(num > id ){
