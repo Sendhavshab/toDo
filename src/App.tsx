@@ -6,10 +6,12 @@ function App() {
 
   return (
     <div>
-      <DarkModeToggle></DarkModeToggle>
+      <div className="dark:bg-gray-950">
+        <DarkModeToggle></DarkModeToggle>
+      </div>
       <P></P>
     </div>
-  )
+  );
 }
 
 export default App

@@ -36,7 +36,7 @@ const DarkModeToggle = () => {
   }, [darkMode]);
 
   return (
-    <div className="relative inline-block">
+    <div className="relative inline-block ">
       <button className="focus:outline-none" onClick={toggleDarkMode}>
         <div className=" hover:bg-orange-400 dark:hover:bg-yellow-400 hover:bg-opacity-30 p-1 rounded-full">
           {darkMode ? (
